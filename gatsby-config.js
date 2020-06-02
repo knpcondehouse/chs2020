@@ -5,6 +5,7 @@ module.exports = {
     author: `のむらパターソン和孝`,
   },
   plugins: [
+    `gatsby-plugin-scroll-reveal`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
