@@ -78,8 +78,8 @@ const IndexPage = () => (
         <p>東京支店ライブオフィスオープン</p>
         <p>主力シリーズオフィスアイテム発表</p>
       </div>
-      <Link to="/"></Link>
     </section>
+      <Link to="/"></Link>
   </Layout>
 )
 
