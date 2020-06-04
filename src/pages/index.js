@@ -58,11 +58,8 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-
-
-    <section data="sales pitch" className="chs-sales" data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
-      <h2 className="date">Schedule<span className="innerspan">thu</span></h2>
-      <h2><span className="presspreview"></span>新作プレスプレビュー</h2>
+    <section className="chs-sales" data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
+      <h2><span className="schedule"></span>イベント</h2>
       <div className="lineup cap">
         <p>7/2　KYOBASHI・KOTAN <br />プレビュー for プレス & ビジネス</p>
         <p>7/3　新作・新提案プレゼンテーション for ビジネス</p>
