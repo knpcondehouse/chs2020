@@ -4,19 +4,7 @@ module.exports = {
     description: `カンディハウススタイル2020特設サイトです。北海道旭川の地でものづくりを続けて52年のカンディハウスによる新製品発表やデザイナートークのイベントのご案内です。`,
     author: `のむらパターソン和孝`,
   },
-  plugins: [ {
-    resolve: "gatsby-plugin-social-cards",
-    options: {
-      // ommit to skip
-      authorImage: "./static/img/coffee-art.jpg",
-      // image to use when no cover in frontmatter
-      backgroundImage: "./static/img/hvitserkur.JPG",
-      // author to use when no auth in frontmatter
-      defaultAuthor: "Andri Óskarsson",
-      // card design
-      design: "default", // 'default' or 'card'
-    },
-  },
+  plugins: [
     {
      resolve: `gatsby-plugin-google-analytics`,
      options: {
@@ -46,6 +34,20 @@ module.exports = {
        cookieDomain: "condehouse.style",
      },
    },
+    {
+    resolve: "gatsby-plugin-social-cards",
+    options: {
+      // ommit to skip
+      authorImage: "./static/img/coffee-art.jpg",
+      // image to use when no cover in frontmatter
+      backgroundImage: "./static/img/hvitserkur.JPG",
+      // author to use when no auth in frontmatter
+      defaultAuthor: "Andri Óskarsson",
+      // card design
+      design: "default", // 'default' or 'card'
+    },
+  },
+
     `gatsby-plugin-scroll-reveal`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
