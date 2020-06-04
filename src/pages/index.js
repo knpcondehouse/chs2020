@@ -12,9 +12,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="motiongraphic">
-      <h3>This is where the graphics appear</h3>
+      <h3>Motion Graphics</h3>
     </div>
-    <section data="eventinfo" className="chs-intro cap">
+    <section data="eventinfo" className="chs-intro cap" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500"
+  data-sal-easing="ease">
       <h3>conde house style <br />2020 July</h3>
       <p>「CONDE HOUSE STYLE 2020 JULY」を開催いたします。</p>
       <p>新作・新提案を、7月オンラインにて発表。</p>
@@ -24,16 +25,16 @@ const IndexPage = () => (
 
     </section>
     <section data="item-videos" className="items-container">
-      <h3>New Item Debut</h3>
+      <h3 data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">New Item Debut</h3>
       <div>
         <div className="product-box cap">
-          <div className="videobox">
+          <div className="videobox" data-sal="slide-right" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
             <video preload='auto' loop autoPlay muted>
               <source src={Video2} type="video/mp4" />
            Your browser does not support HTML5 video.
            </video>
           </div>
-          <div className="column-text">
+          <div className="column-text" data-sal="slide-left" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KYOBASHI</h4>
             <h5>design TONERICO:INC. HIROSHI YONEYA</h5>
             <p>旧ブリヂストン美術館が館名変更し、2020年1月に新しく「アーティゾン美術館」として開館。トネリコ 米谷ひろし氏が美術館のためにデザインしたアームチェアー・サイドチェアーをカンディハウスオリジナルとして発表します。更に洗練された新提案をご覧ください。</p>
@@ -42,13 +43,13 @@ const IndexPage = () => (
       </div>
       <div className="product-box-margin">
         <div className="product-box cap">
-          <div className="videobox">
+          <div className="videobox" data-sal="slide-left" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease">
             <video preload='auto' loop autoPlay muted>
               <source src={Video1} type="video/mp4" />
            Your browser does not support HTML5 video.
            </video>
           </div>
-          <div className="column-text">
+          <div className="column-text" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KOTAN</h4>
             <h5>design NAOTO FUKASAWA</h5>
             <p>「次代のロングライフプロダクト」を目指して深澤直人氏と開発したシリーズ「KOTAN」。椅子の発売から1年が経ち、この度テーブルやハイチェアーや異素材とのコンビネーション、空間提案の幅を広げる多くのアイテムを追加発表いたします。</p>
@@ -58,17 +59,17 @@ const IndexPage = () => (
     </section>
 
 
-    <section data="sales pitch" className="chs-sales">
+    <section data="sales pitch" className="chs-sales" data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
       <h2 className="date">Schedule<span className="innerspan">thu</span></h2>
-      <h2>新作プレスプレビュー<br />Press Preview</h2>
-      <p className="cap">
-7/2　KYOBASHI ・ KOTANプレビュー forプレス＆ビジネス
-7/3　新作・新提案プレゼンテーションfor ビジネス
-7/4  KYOBASHI ・ KOTAN発表発売
-
-Next Time　　主力シリーズ追加アイテム・新作シリーズ発表　　　　　
-           東京支店ライブオフィスオープン・主力シリーズオフィスアイテム発表
-</p>
+      <h2><span className="presspreview"></span>新作プレスプレビュー</h2>
+      <div className="cap">
+        <p>7/2　KYOBASHI ・ KOTANプレビュー forプレス＆ビジネス</p>
+        <p>7/3　新作・新提案プレゼンテーションfor ビジネス
+  7/4  KYOBASHI ・ KOTAN発表発売
+  Next Time　　主力シリーズ追加アイテム・新作シリーズ発表　　　　　
+             東京支店ライブオフィスオープン・主力シリーズオフィスアイテム発表
+  </p>
+      </div>
       <div className="designers cap">
         <div><img src={Image} alt="Tonerico" /></div>
         <div><p>デザイナー名前</p></div>
