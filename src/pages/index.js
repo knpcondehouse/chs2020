@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../images/yoneyatonerico.jpg"
 import Image2 from "../images/naotofukasawa.jpg"
-import Video1 from "../images/kotan_HD.mp4"
-import Video2 from "../images/kyobashi_HD.mp4"
+import Video1 from "../images/kotan.mp4"
+import Video2 from "../images/kyobashi.mp4"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -19,8 +19,7 @@ const IndexPage = () => (
       <h3>conde house style <br />2020 July</h3>
       <p>「CONDE HOUSE STYLE 2020 JULY」を開催いたします。</p>
       <p>新作・新提案を、7月オンラインにて発表。</p>
-      <p>オフィスや家での過ごし方が見直され、生活スタイルや働き方が多様化する現代、
-カンディハウスはお客さまとともに、より豊かなくらしを考えて参ります。</p>
+      <p>オフィスや家での過ごし方が見直され、生活スタイルや働き方が多様化する現代、カンディハウスはお客さまとともに、より豊かなくらしを考えて参ります。</p>
       <p>国内外含めた世界同時配信にてお届けいたします。ぜひご期待ください。</p>
 
     </section>
@@ -64,11 +63,10 @@ const IndexPage = () => (
       <h2><span className="presspreview"></span>新作プレスプレビュー</h2>
       <div className="cap">
         <p>7/2　KYOBASHI ・ KOTANプレビュー forプレス＆ビジネス</p>
-        <p>7/3　新作・新提案プレゼンテーションfor ビジネス
-  7/4  KYOBASHI ・ KOTAN発表発売
-  Next Time　　主力シリーズ追加アイテム・新作シリーズ発表　　　　　
-             東京支店ライブオフィスオープン・主力シリーズオフィスアイテム発表
-  </p>
+        <p>7/3　新作・新提案プレゼンテーションfor ビジネス</p>
+        <p>7/4  KYOBASHI ・ KOTAN発表発売</p>
+        <p>Next Time　　主力シリーズ追加アイテム・新作シリーズ発表</p>　　
+        <p>東京支店ライブオフィスオープン・主力シリーズオフィスアイテム発表</p>
       </div>
       <div className="designers cap">
         <div><img src={Image} alt="Tonerico" /></div>
