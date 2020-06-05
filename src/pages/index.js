@@ -60,8 +60,8 @@ const IndexPage = () => (
     </section>
     <section className="chs-sales">
       <h3 data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease"><span className="schedule"></span>Event</h3>
-      <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease" className="lineup cap">
-        <div className="centering">
+      <div className="lineup cap">
+        <div  data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease" className="centering">
           <p>7/2<span className="dayoftheweek">Thu</span>KYOBASHI・KOTAN <br />プレビュー for プレス & ビジネス</p>
           <p>7/3<span className="dayoftheweek">Fri</span>新作・新提案プレゼンテーション for ビジネス</p>
           <p>7/4<span className="dayoftheweek">Sat</span>KYOBASHI ・ KOTAN発表発売</p>
