@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../images/yoneyatonerico.jpg"
 import Image2 from "../images/naotofukasawa.jpg"
-import Video1 from "../images/kotan.mp4"
+import Video1 from "../../static/kotan.mp4"
 import Video2 from "../images/kyobashi.mp4"
 import Motion from "../images/motion.mp4"
 import SEO from "../components/seo"
@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="motiongraphic">
-      <video playsinline preload='auto' loop autoPlay muted>
+      <video webkit-playsinline preload='auto' loop autoPlay muted>
         <source src={Motion} type="video/mp4" />
      Your browser does not support HTML5 video.
      </video>
@@ -44,7 +44,7 @@ const IndexPage = () => (
       <div className="product-box-margin">
         <div className="product-box cap">
           <div className="videobox" data-sal="slide-left" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease">
-            <video playsinline preload='auto' loop autoPlay muted>
+            <video playsinline webkit-playsinline preload='auto' loop autoPlay muted>
               <source src={Video1} type="video/mp4" />
            Your browser does not support HTML5 video.
            </video>
