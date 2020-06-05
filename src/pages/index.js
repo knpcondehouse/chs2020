@@ -57,13 +57,13 @@ const IndexPage = () => (
     </section>
     <section className="chs-sales">
       <h2 data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease"><span className="schedule"></span>Event</h2>
-      <p>デザイナーインタビューを含む新作・新提案プレゼンテーションを行います。参加受付の開始は近日中にお知らせいたします。</p>
+      <p data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">デザイナーインタビューを含む新作・新提案プレゼンテーションを行います。参加受付の開始は近日中にお知らせいたします。</p>
       <div className="lineup cap">
         <div className="event-dates">
-          <div><h4>7/2 <span>thu</span></h4></div>
-          <div><h4>KYOBASHI・KOTAN プレビュー for プレス<br />KYOBASHI・KOTAN プレビュー for ビジネス<br />ゲスト出演予定 米谷ひろし・深澤直人</h4></div>
-          <div><h4>7/3 <span>fri</span></h4></div>
-          <div><h4>新作・新提案プレゼンテーション for ビジネス</h4></div>
+          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease"><h4>7/2 <span>thu</span></h4></div>
+          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease"><h4>KYOBASHI・KOTAN プレビュー for プレス<br />KYOBASHI・KOTAN プレビュー for ビジネス<br />ゲスト出演予定 米谷ひろし・深澤直人</h4></div>
+          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease"><h4>7/3 <span>fri</span></h4></div>
+          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease"><h4>新作・新提案プレゼンテーション for ビジネス</h4></div>
         </div>
       </div>
     </section>
