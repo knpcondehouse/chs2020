@@ -37,7 +37,7 @@ const IndexPage = () => (
           </div>
           <div className="column-text" data-sal="slide-left" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KYOBASHI</h4>
-            <h5>design TONERICO:INC. HIROSHI YONEYA</h5>
+            <h5>design TONERICO:INC. Hiroshi Yoneya</h5>
             <p>旧ブリヂストン美術館が館名変更し、2020年1月に新しく「アーティゾン美術館」として開館。トネリコ 米谷ひろし氏が美術館のためにデザインしたアームチェアー・サイドチェアーをカンディハウスオリジナルとして発表します。更に洗練された新提案をご覧ください。</p>
           </div>
         </div>
@@ -52,14 +52,14 @@ const IndexPage = () => (
           </div>
           <div className="column-text" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KOTAN</h4>
-            <h5>design NAOTO FUKASAWA</h5>
+            <h5>design Naoto Fukasawa Design</h5>
             <p>「次代のロングライフプロダクト」を目指して深澤直人氏と開発したシリーズ「KOTAN」。椅子の発売から1年が経ち、この度テーブルやハイチェアーや異素材とのコンビネーション、空間提案の幅を広げる多くのアイテムを追加発表いたします。</p>
           </div>
         </div>
       </div>
     </section>
     <section className="chs-sales" data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
-      <h2><span className="schedule"></span>イベント</h2>
+      <h2><span className="schedule"></span>Event</h2>
       <div className="lineup cap">
         <p>7/2　KYOBASHI・KOTAN <br />プレビュー for プレス & ビジネス</p>
         <p>7/3　新作・新提案プレゼンテーション for ビジネス</p>
