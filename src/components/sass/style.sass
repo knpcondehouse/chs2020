@@ -230,6 +230,27 @@ section
   h3
     text-align: center
 
+.event-dates
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+
+  div
+    margin-bottom: 25px
+    &:nth-child(odd)
+      width: 30%
+      @media screen and (max-width: $phoneup)
+        width: 100%
+      h4
+        font-weight: bold
+        font-size: 4rem
+        color: #000
+        border-bottom: 10px solid $red
+        display: inline-block
+    &:nth-child(even)
+      width: 70%
+      @media screen and (max-width: $phoneup)
+        width: 100%
 
 footer
   height: 70px

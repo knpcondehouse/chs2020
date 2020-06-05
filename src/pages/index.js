@@ -17,8 +17,7 @@ const IndexPage = () => (
      Your browser does not support HTML5 video.
      </video>
     </div>
-    <section data="eventinfo" className="chs-intro cap" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500"
-  data-sal-easing="ease">
+    <section data="eventinfo" className="chs-intro cap">
       <h3>conde house style <br />2020 July</h3>
       <p>「CONDE HOUSE STYLE 2020 JULY」を開催いたします。</p>
       <p>新作・新提案を、7月オンラインにて発表。</p>
@@ -59,13 +58,16 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="chs-sales">
+      <div><h2>7/4 KYOBASHI ・ KOTAN 発表発売</h2></div>
       <h2 data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease"><span className="schedule"></span>Event</h2>
       <div className="lineup cap">
-        <div  data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease" className="centering">
-          <p>7/2<span className="dayoftheweek">Thu</span>KYOBASHI・KOTAN <br />プレビュー for プレス & ビジネス</p>
-          <p>7/3<span className="dayoftheweek">Fri</span>新作・新提案プレゼンテーション for ビジネス</p>
-          <p>7/4<span className="dayoftheweek">Sat</span>KYOBASHI ・ KOTAN発表発売</p>
+        <div className="event-dates">
+          <div><h4>7/2</h4></div>
+          <div><h4>KYOBASHI・KOTAN プレビュー for プレス & ビジネス</h4></div>
+          <div><h4>7/3</h4></div>
+          <div><h4>新作・新提案プレゼンテーション for ビジネス</h4></div>
         </div>
+
         <h3 data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease" className="guests"><span className="guestspeakers"></span>出席者</h3>
         <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease" className="designers cap">
           <div><img src={Image} alt="Tonerico" /></div>
@@ -74,12 +76,11 @@ const IndexPage = () => (
           <div><p>KOTAN <br />by <br />Naoto Fukasawa</p></div>
         </div>
         <h3><span className="comingsoonspan"></span>Next Updates</h3>
-        <p></span>主力シリーズ追加アイテム・<br />新作シリーズ発表</p>
-        <span className="clear"></span>
-        <p>東京支店ライブオフィスオープン</p>
-        <span className="clear"></span>
-        <p>主力シリーズオフィスアイテム発表</p>
-        <span className="clear"></span>
+        <ul>
+          <li>主力シリーズ追加アイテム・新作シリーズ発表</li>
+          <li>東京支店ライブオフィスオープン</li>
+          <li>主力シリーズオフィスアイテム発表</li>
+        </ul>
       </div>
     </section>
       <Link to="/"></Link>
