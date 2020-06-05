@@ -29,10 +29,10 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer>
           <ul className="footermenu">
+            <li>© {new Date().getFullYear()} Conde House Style 特設サイト</li>
             <a href="https://condehouse.co.jp" alt="conde house official site"><li>Conde House 公式サイト</li></a>
             <a href="https://www.facebook.com/condehouse/" alt="Condehouse Facebook"><li>Facebook</li></a>
             <a href="https://www.instagram.com/condehouse_official/" alt="Conde House Instagram"><li>Instagram</li></a>
-            <li>© {new Date().getFullYear()} Conde House Style 特設サイト</li>
           </ul>
 
         </footer>
