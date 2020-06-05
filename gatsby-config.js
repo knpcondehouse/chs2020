@@ -3,6 +3,7 @@ module.exports = {
     title: `Condehouse Style 2020 July`,
     description: `カンディハウススタイル2020特設サイトです。北海道旭川の地でものづくりを続けて52年のカンディハウスによる新製品発表やデザイナートークのイベントのご案内です。`,
     author: `のむらパターソン和孝`,
+
   },
   plugins: [
     {
@@ -40,7 +41,7 @@ module.exports = {
       // ommit to skip
       authorImage: "./static/img/coffee-art.jpg",
       // image to use when no cover in frontmatter
-      backgroundImage: "./static/img/hvitserkur.JPG",
+      backgroundImage: "./static/card.png",
       // author to use when no auth in frontmatter
       defaultAuthor: "Andri Óskarsson",
       // card design
@@ -81,6 +82,20 @@ module.exports = {
         display: 'swap'
       }
     },
+
+    {
+  resolve: "gatsby-plugin-social-cards",
+  options: {
+    // ommit to skip
+    authorImage: "./static/img/coffee-art.jpg",
+    // image to use when no cover in frontmatter
+    backgroundImage: "./static/img/hvitserkur.JPG",
+    // author to use when no auth in frontmatter
+    defaultAuthor: "Andri Óskarsson",
+    // card design
+    design: "default", // 'default' or 'card'
+  },
+},
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
