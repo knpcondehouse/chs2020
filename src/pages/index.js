@@ -52,14 +52,14 @@ const IndexPage = () => (
           </div>
           <div className="column-text" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KOTAN</h4>
-            <h5>design Naoto Fukasawa Design<br /> Naoto Fukasawa</h5>
+            <h5>design Naoto Fukasawa</h5>
             <p>「次代のロングライフプロダクト」を目指して深澤直人氏と開発したシリーズ「KOTAN」。椅子の発売から1年が経ち、この度テーブルやハイチェアーや異素材とのコンビネーション、空間提案の幅を広げる多くのアイテムを追加発表いたします。</p>
           </div>
         </div>
       </div>
     </section>
     <section className="chs-sales">
-      <h3 data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease"><span className="schedule"></span>Event</h3>
+      <h2 data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease"><span className="schedule"></span>Event</h2>
       <div className="lineup cap">
         <div  data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease" className="centering">
           <p>7/2<span className="dayoftheweek">Thu</span>KYOBASHI・KOTAN <br />プレビュー for プレス & ビジネス</p>
@@ -74,7 +74,7 @@ const IndexPage = () => (
           <div><p>KOTAN <br />by <br />Naoto Fukasawa</p></div>
         </div>
         <h3><span className="comingsoonspan"></span>Next Updates</h3>
-        <p>主力シリーズ追加アイテム・<br />新作シリーズ発表</p>
+        <p></span>主力シリーズ追加アイテム・<br />新作シリーズ発表</p>
         <span className="clear"></span>
         <p>東京支店ライブオフィスオープン</p>
         <span className="clear"></span>
