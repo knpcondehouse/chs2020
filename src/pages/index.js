@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="motiongraphic">
-      <video controls preload='auto' loop autoPlay playsinline muted>
+      <video preload='auto' loop autoPlay playsinline muted>
         <source src={Motion} type="video/mp4" />
      Your browser does not support HTML5 video.
      </video>
@@ -29,7 +29,7 @@ const IndexPage = () => (
       <div>
         <div className="product-box cap">
           <div className="videobox" data-sal="slide-right" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
-            <video controls preload='auto' loop autoPlay playsinline muted>
+            <video preload='auto' loop autoPlay playsinline muted>
               <source src={Video2} type="video/mp4" />
            Your browser does not support HTML5 video.
            </video>
