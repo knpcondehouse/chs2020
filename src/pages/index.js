@@ -62,6 +62,8 @@ const IndexPage = () => (
       <h2 data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease"><span className="schedule"></span>Event</h2>
       <div className="lineup cap">
         <div className="event-dates">
+          <div><h4>6/10</h4></div>
+          <div><h4>参加受付開始</h4></div>
           <div><h4>7/2</h4></div>
           <div><h4>KYOBASHI・KOTAN プレビュー for プレス & ビジネス</h4></div>
           <div><h4>7/3</h4></div>
