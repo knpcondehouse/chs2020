@@ -7,8 +7,9 @@ $phoneup: 600px
   clear: both
   display: block
 
-header
+.header-style
   height: 100px
+  display: none
   @media screen and (max-width: $phoneup)
     height: 55px
 
@@ -98,7 +99,22 @@ section
   margin-right: 15px
   padding: 3px
 
+.guestspeakers
+  &::before
+    content: 'Guests'
+  background-color: $red
+  font-size: 12px
+  color: #fff
+  font-weight: 500
+  line-height: 70px
+  vertical-align: middle
+  margin-right: 15px
+  padding: 3px
 
+.dayoftheweek
+  font-size: 0.9rem
+  margin-right: 10px
+  margin-left: 10px
 
 .chs-intro
   h3
@@ -152,7 +168,7 @@ section
 
 .items-container
   text-align: center
-  background-color: #f4f3ed
+  background-color: #dfdcce
   h3
     text-transform: uppercase
     @media screen and (max-width: $phoneup)
@@ -187,8 +203,7 @@ section
   @media screen and (max-width: $phoneup)
     width: 100%
     padding: 25px
-  h5
-    text-align: right
+
 
 .chs-sales
   h2
@@ -198,17 +213,19 @@ section
     @media screen and (max-width: $phoneup)
       font-size: 22px
 .lineup
+  .guests
+    margin-top: 50px
+    margin-bottom: 0
   p
-    float: right
     font-size: 1.2rem
     font-weight: 300
     border-bottom: 5px solid $red
     display: inline-block
-    text-align: right
+    text-align: center
     &::after
       clear: both
       content: ""
-      display: table;
+      display: table
 
     br
       @media screen and (min-width: $phoneup)

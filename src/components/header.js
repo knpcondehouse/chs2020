@@ -7,7 +7,7 @@ import "./sass/style.sass"
 
 
 const Header = ({ siteTitle }) => (
-  <header
+  <header className="header-style"
     style={{
       background: `#cc0000`,
     }}

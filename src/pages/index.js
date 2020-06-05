@@ -61,9 +61,10 @@ const IndexPage = () => (
     <section className="chs-sales" data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
       <h2><span className="schedule"></span>Event</h2>
       <div className="lineup cap">
-        <p>7/2　KYOBASHI・KOTAN <br />プレビュー for プレス & ビジネス</p>
-        <p>7/3　新作・新提案プレゼンテーション for ビジネス</p>
-        <p>7/4  KYOBASHI ・ KOTAN発表発売</p>
+        <p>7/2<span className="dayoftheweek">Thu</span>KYOBASHI・KOTAN <br />プレビュー for プレス & ビジネス</p>
+        <p>7/3<span className="dayoftheweek">Fri</span>新作・新提案プレゼンテーション for ビジネス</p>
+        <p>7/4<span className="dayoftheweek">Sat</span>KYOBASHI ・ KOTAN発表発売</p>
+        <h3 className="guests"><span className="guestspeakers"></span>ゲストスピーカー</h3>
         <div className="designers cap">
           <div><img src={Image} alt="Tonerico" /></div>
           <div><p>KYOBASHI <br />by <br />TONERICO:INC. Hiroshi Yoneya</p></div>
@@ -72,7 +73,7 @@ const IndexPage = () => (
         </div>
         <h3><span className="comingsoonspan"></span>Next Updates</h3>
         <p>主力シリーズ追加アイテム・<br />新作シリーズ発表</p>
-        <span className="clear"></span>　　
+        <span className="clear"></span>
         <p>東京支店ライブオフィスオープン</p>
         <span className="clear"></span>
         <p>主力シリーズオフィスアイテム発表</p>
