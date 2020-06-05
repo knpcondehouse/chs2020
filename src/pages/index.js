@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="motiongraphic">
-      <video preload='auto' loop autoPlay playsinline muted>
+      <video playsinline preload='auto' loop autoPlay muted>
         <source src={Motion} type="video/mp4" />
      Your browser does not support HTML5 video.
      </video>
@@ -29,7 +29,7 @@ const IndexPage = () => (
       <div>
         <div className="product-box cap">
           <div className="videobox" data-sal="slide-right" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
-            <video preload='auto' loop autoPlay playsinline muted>
+            <video playsinline preload='auto' loop autoPlay muted>
               <source src={Video2} type="video/mp4" />
            Your browser does not support HTML5 video.
            </video>
@@ -44,7 +44,7 @@ const IndexPage = () => (
       <div className="product-box-margin">
         <div className="product-box cap">
           <div className="videobox" data-sal="slide-left" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease">
-            <video preload='auto' loop autoPlay playsinline muted>
+            <video playsinline preload='auto' loop autoPlay muted>
               <source src={Video1} type="video/mp4" />
            Your browser does not support HTML5 video.
            </video>
@@ -58,7 +58,7 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="chs-sales">
-      <div><h2>7/4 <span className="dayoftheweek">Sat</span>KYOBASHI ・ KOTAN 発表発売</h2></div>
+      <div><h2 className="release-bar">7/4<span className="dayoftheweek">Sat</span>KYOBASHI ・ KOTAN <span className="release-font-sizing">発表発売</span></h2></div>
       <h2 data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease"><span className="schedule"></span>Event</h2>
       <div className="lineup cap">
         <div className="event-dates">
