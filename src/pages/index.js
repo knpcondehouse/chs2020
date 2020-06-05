@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import Image from "../images/yoneyatonerico.jpg"
-import Image2 from "../images/naotofukasawa.jpg"
 import Video1 from "../../static/kotan.mp4"
 import Video2 from "../images/kyobashi.mp4"
 import Motion from "../images/motion.mp4"
@@ -25,7 +23,7 @@ const IndexPage = () => (
       <p>国内外含めた世界同時配信にてお届けいたします。ぜひご期待ください。</p>
     </section>
     <section data="item-videos" className="items-container">
-      <h3 data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">New Item Debut</h3>
+      <h3 data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">7/4<span className="dayoftheweek">Sat</span>New Item Debut</h3>
       <div>
         <div className="product-box cap">
           <div className="videobox" data-sal="slide-right" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
@@ -58,32 +56,21 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="chs-sales">
-      <div><h2 className="release-bar">7/4<span className="dayoftheweek">Sat</span>KYOBASHI ・ KOTAN <span className="release-font-sizing">発表発売</span></h2></div>
       <h2 data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease"><span className="schedule"></span>Event</h2>
+      <p>デザイナーインタビューを含む新作・新提案プレゼンテーションを行います。参加受付の開始は近日中にお知らせいたします。</p>
       <div className="lineup cap">
         <div className="event-dates">
-          <div><h4>6/10</h4></div>
-          <div><h4>参加受付開始</h4></div>
-          <div><h4>7/2</h4></div>
-          <div><h4>KYOBASHI・KOTAN プレビュー for プレス & ビジネス</h4></div>
-          <div><h4>7/3</h4></div>
+          <div><h4>7/2 <span>thu</span></h4></div>
+          <div><h4>KYOBASHI・KOTAN プレビュー for プレス<br />KYOBASHI・KOTAN プレビュー for ビジネス<br />ゲスト出演予定 米谷ひろし・深澤直人</h4></div>
+          <div><h4>7/3 <span>fri</span></h4></div>
           <div><h4>新作・新提案プレゼンテーション for ビジネス</h4></div>
         </div>
-
-        <h3 data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease" className="guests"><span className="guestspeakers"></span>出席者</h3>
-        <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease" className="designers cap">
-          <div><img src={Image} alt="Tonerico" /></div>
-          <div><p>KYOBASHI <br />by <br />TONERICO:INC. Hiroshi Yoneya</p></div>
-          <div><img src={Image2} alt="Naoto Fukasawa"/></div>
-          <div><p>KOTAN <br />by <br />Naoto Fukasawa</p></div>
-        </div>
-        <h3><span className="comingsoonspan"></span>Next Updates</h3>
-        <ul>
-          <li>主力シリーズ追加アイテム・新作シリーズ発表</li>
-          <li>東京支店ライブオフィスオープン</li>
-          <li>主力シリーズオフィスアイテム発表</li>
-        </ul>
       </div>
+    </section>
+    <section className="nextupdates">
+      <h3><span className="comingsoonspan"></span>Next Updates</h3>
+      <p>この後も人気シリーズの追加ラインアップや新シリーズ、
+そして東京ライブオフィスに向けたオフィス新アイテムを発表予定。</p>
     </section>
       <Link to="/"></Link>
   </Layout>

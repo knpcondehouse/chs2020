@@ -212,8 +212,11 @@ section
 
 
 .chs-sales
+  background-color: #dfdcce
+  text-align: center
+  p
+    margin-bottom: 50px
   h3
-    text-align: center
     @media screen and (max-width: $phoneup)
       font-size: 22px
 .lineup
@@ -253,10 +256,18 @@ section
         color: #000
         border-bottom: 10px solid $red
         display: inline-block
+        span
+          font-size: 20px
     &:nth-child(even)
       width: 70%
+      h4
+        font-size: 1rem
+        line-height: 1.5
       @media screen and (max-width: $phoneup)
         width: 100%
+
+.nextupdates
+  text-align: center
 
 footer
   height: 70px
