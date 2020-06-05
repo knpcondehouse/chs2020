@@ -3,6 +3,10 @@ $browsersm: 1000px
 $tablet: 800px
 $phoneup: 600px
 
+.clear
+  clear: both
+  display: block
+
 header
   height: 100px
   @media screen and (max-width: $phoneup)
@@ -186,6 +190,13 @@ section
   h5
     text-align: right
 
+.chs-sales
+  h2
+    @media screen and (max-width: $phoneup)
+      font-size: 22px
+  h3
+    @media screen and (max-width: $phoneup)
+      font-size: 22px
 .lineup
   p
     float: right
@@ -194,8 +205,11 @@ section
     border-bottom: 5px solid $red
     display: inline-block
     text-align: right
-    &:after
+    &::after
       clear: both
+      content: ""
+      display: table;
+
     br
       @media screen and (min-width: $phoneup)
         display: none
@@ -203,7 +217,7 @@ section
     text-align: center
 
 footer
-  height: 100px
+  height: 70px
   background-color: $red
   clear: both
   @media screen and (max-width: $phoneup)
@@ -212,11 +226,10 @@ footer
 .footermenu
   display: flex
   list-style: none
-  height: 100px
+  height: 70px
   padding: 25px
   margin-left: 0px
   margin-bottom: 0px
-  align-items: flex-end
   li
     margin-right: 15px
     color: #fff

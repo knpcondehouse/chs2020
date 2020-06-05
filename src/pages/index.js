@@ -37,7 +37,7 @@ const IndexPage = () => (
           </div>
           <div className="column-text" data-sal="slide-left" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KYOBASHI</h4>
-            <h5>design TONERICO:INC. Hiroshi Yoneya</h5>
+            <h5>design TONERICO:INC. <br />Hiroshi Yoneya</h5>
             <p>旧ブリヂストン美術館が館名変更し、2020年1月に新しく「アーティゾン美術館」として開館。トネリコ 米谷ひろし氏が美術館のためにデザインしたアームチェアー・サイドチェアーをカンディハウスオリジナルとして発表します。更に洗練された新提案をご覧ください。</p>
           </div>
         </div>
@@ -52,7 +52,7 @@ const IndexPage = () => (
           </div>
           <div className="column-text" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KOTAN</h4>
-            <h5>design Naoto Fukasawa Design</h5>
+            <h5>design Naoto Fukasawa Design<br /> Naoto Fukasawa</h5>
             <p>「次代のロングライフプロダクト」を目指して深澤直人氏と開発したシリーズ「KOTAN」。椅子の発売から1年が経ち、この度テーブルやハイチェアーや異素材とのコンビネーション、空間提案の幅を広げる多くのアイテムを追加発表いたします。</p>
           </div>
         </div>
@@ -66,14 +66,17 @@ const IndexPage = () => (
         <p>7/4  KYOBASHI ・ KOTAN発表発売</p>
         <div className="designers cap">
           <div><img src={Image} alt="Tonerico" /></div>
-          <div><p>KYOBASHI <br />by <br />TONERICO:INC. HIROSHI YONEYA</p></div>
+          <div><p>KYOBASHI <br />by <br />TONERICO:INC. Hiroshi Yoneya</p></div>
           <div><img src={Image2} alt="Naoto Fukasawa"/></div>
-          <div><p>KOTAN <br />by <br />NAOTO FUKASAWA</p></div>
+          <div><p>KOTAN <br />by <br />Naoto Fukasawa</p></div>
         </div>
         <h3><span className="comingsoonspan"></span>Next Updates</h3>
-        <p>主力シリーズ追加アイテム・<br />新作シリーズ発表</p>　　
+        <p>主力シリーズ追加アイテム・<br />新作シリーズ発表</p>
+        <span className="clear"></span>　　
         <p>東京支店ライブオフィスオープン</p>
+        <span className="clear"></span>
         <p>主力シリーズオフィスアイテム発表</p>
+        <span className="clear"></span>
       </div>
     </section>
       <Link to="/"></Link>
