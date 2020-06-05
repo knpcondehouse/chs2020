@@ -19,7 +19,7 @@ const IndexPage = () => (
       <h3>conde house style <br />2020 July</h3>
       <p>「CONDE HOUSE STYLE 2020 JULY」を開催いたします。</p>
       <p>新作・新提案を、7月オンラインにて発表。</p>
-      <p>オフィスや家での過ごし方が見直され、生活スタイルや働き方が多様化する現代、カンディハウスはお客さまとともに、より豊かなくらしを考えて参ります。</p>
+      <p>オフィスや家での過ごし方が見直され、生活スタイルや働き方が多様化する現代、<br />カンディハウスはお客さまとともに、より豊かなくらしを考えて参ります。</p>
       <p>国内外含めた世界同時配信にてお届けいたします。ぜひご期待ください。</p>
     </section>
     <section data="item-videos" className="items-container">
@@ -61,7 +61,7 @@ const IndexPage = () => (
       <div className="lineup cap">
         <div className="event-dates">
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease"><h4>7/2 <span>thu</span></h4></div>
-          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease"><h4>KYOBASHI・KOTAN プレビュー for プレス<br />KYOBASHI・KOTAN プレビュー for ビジネス<br />ゲスト出演予定 米谷ひろし・深澤直人</h4></div>
+          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease"><h4>KYOBASHI・KOTAN プレビュー for プレス<br />KYOBASHI・KOTAN プレビュー for ビジネス<br />【ゲスト出演予定】米谷ひろし・深澤直人</h4></div>
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease"><h4>7/3 <span>fri</span></h4></div>
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease"><h4>新作・新提案プレゼンテーション for ビジネス</h4></div>
         </div>
