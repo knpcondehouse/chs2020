@@ -35,7 +35,7 @@ const IndexPage = () => (
           <div className="column-text" data-sal="slide-left" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KYOBASHI</h4>
             <h5>design TONERICO:INC. <br />Hiroshi Yoneya</h5>
-            <p>旧ブリヂストン美術館が館名変更し、2020年1月に新しく「アーティゾン美術館」として開館。トネリコ 米谷ひろし氏が美術館のためにデザインしたアームチェアー・サイドチェアーをカンディハウスオリジナルとして発表します。更に洗練された新提案をご覧ください。</p>
+            <p>旧ブリヂストン美術館が館名変更し、2020年1月に新しく「アーティゾン美術館」として開館。トネリコ 米谷ひろし氏が美術館のためにデザインしたアームチェアー・サイドチェアーをもとにカンディハウスオリジナルとして発表します。更に洗練された新提案をご覧ください。</p>
           </div>
         </div>
       </div>
