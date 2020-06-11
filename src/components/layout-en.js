@@ -12,9 +12,10 @@ import Header from "./header"
 import "./layout.css"
 import { Link } from "gatsby"
 
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
+    query siteTitleQueryAndSiteTitleQuery {
       site {
         siteMetadata {
           title
@@ -30,11 +31,11 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer>
           <ul className="footermenu">
-            <li>© {new Date().getFullYear()} Conde House Style 特設サイト</li>
-            <a href="https://condehouse.co.jp" alt="conde house official site"><li>→ Conde House 公式サイト</li></a>
+            <li>© {new Date().getFullYear()} Conde House Style Event Website</li>
+            <a href="https://condehouse.com" alt="conde house official site"><li>→ Conde House Official Website</li></a>
             <a href="https://www.facebook.com/condehouse/" alt="Condehouse Facebook"><li>→ Facebook</li></a>
             <a href="https://www.instagram.com/condehouse_official/" alt="Conde House Instagram"><li>→ Instagram</li></a>
-            <Link to="/en"><li>→ English Page</li></Link>
+            <Link to="/" ><li>→ 日本語</li></Link>
           </ul>
 
         </footer>

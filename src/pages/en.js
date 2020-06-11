@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Layout from "../components/layout"
+import Layout from "../components/layout-en"
 import Video1 from "../../static/kotan.mp4"
 import Video2 from "../images/kyobashi.mp4"
 import Motion from "../images/motion.mp4"
@@ -16,11 +16,10 @@ const IndexPage = () => (
      </video>
     </div>
     <section data="eventinfo" className="chs-intro cap">
-      <h3>conde house style <br />2020 July</h3>
-      <p>「CONDE HOUSE STYLE 2020 JULY」を開催いたします。</p>
-      <p>新作・新提案を、7月オンラインにて発表。</p>
-      <p>オフィスや家での過ごし方が見直され、生活スタイルや働き方が多様化する現代、<br />カンディハウスはお客さまとともに、より豊かなくらしを考えて参ります。</p>
-      <p>国内外含めた世界同時配信にてお届けいたします。ぜひご期待ください。</p>
+      <h3>CONDE HOUSE style <br />JULY 2020</h3>
+      <p>At our annual celebration, we will unveil new products and behind the scene stories. CONDE HOUSE STYLE will take place online for the first time this year.</p>
+      <p>We now have such diverse ways to live and work, both at home and in the office. CONDE HOUSE helps you to reimagine and enrich your daily life.</p>
+      <p>This online event will be accessible from anywhere. Please join us.</p>
     </section>
     <section data="item-videos" className="items-container">
       <h3 data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">7/4<span className="dayoftheweek">Sat</span>New Item Debut</h3>
@@ -35,7 +34,7 @@ const IndexPage = () => (
           <div className="column-text" data-sal="slide-left" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KYOBASHI</h4>
             <h5>design TONERICO:INC. <br />Hiroshi Yoneya</h5>
-            <p>旧ブリヂストン美術館が館名変更し、2020年1月に新しく「アーティゾン美術館」として開館。トネリコ 米谷ひろし氏が美術館のためにデザインしたアームチェアー・サイドチェアーをもとにカンディハウスオリジナルとして発表します。更に洗練された新提案をご覧ください。</p>
+            <p>In January 2020, Artizon Museum, formerly known as Bridgestone Museum, re-opened. CONDE HOUSE is launching a new armchair and side chair based on Artizon's custom chairs, designed by Hiroshi Yoneya (TONERICO:INC). </p>
           </div>
         </div>
       </div>
@@ -50,27 +49,26 @@ const IndexPage = () => (
           <div className="column-text" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KOTAN</h4>
             <h5>design Naoto Fukasawa</h5>
-            <p>「次代のロングライフプロダクト」を目指して深澤直人氏と開発したシリーズ「KOTAN」。椅子の発売から1年が経ち、この度テーブルやハイチェアーや異素材とのコンビネーション、空間提案の幅を広げる多くのアイテムを追加発表いたします。</p>
+            <p>"KOTAN" is the result of the collaboration between CONDE HOUSE and the well-known product designer Naoto Fukasawa. The aim was to develop "the next generation long-life chair". One year has passed since the launch of the chair and we are now adding new product variations such as a table, high chair, and new materials to diversify the offering.</p>
           </div>
         </div>
       </div>
     </section>
     <section className="chs-sales">
-      <h2 data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease"><span className="schedule"></span>Event</h2>
-      <p data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">デザイナーインタビューを含む新作・新提案プレゼンテーションを行います。参加受付の開始は近日中にお知らせいたします。</p>
+      <h2 data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease"><span className="schedule"></span>Events</h2>
+      <p data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease" className="cap">New products will be presented, along with designer interviews. The registration form will be added soon. </p>
       <div className="lineup cap">
         <div className="event-dates">
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease"><h4>7/2 <span>thu</span></h4></div>
-          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease"><h4>KYOBASHI・KOTAN プレビュー for プレス<br />KYOBASHI・KOTAN プレビュー for ビジネス<br />【ゲスト出演予定】米谷ひろし・深澤直人</h4></div>
+          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease"><h4>KYOBASHI・KOTAN Preview for Press<br />KYOBASHI・KOTAN Preview for Business<br />[Guests] Hiroshi Yoneya and Naoto Fukasawa</h4></div>
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease"><h4>7/3 <span>fri</span></h4></div>
-          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease"><h4>新作・新提案プレゼンテーション for ビジネス</h4></div>
+          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease"><h4>New product and Proposition Presentation for Business</h4></div>
         </div>
       </div>
     </section>
     <section className="nextupdates">
       <h3><span className="comingsoonspan"></span>Next Updates</h3>
-      <p>この後も人気シリーズの追加ラインアップや新シリーズ、
-そして東京ライブオフィスに向けたオフィス新アイテムを発表予定。</p>
+      <p className="cap">We will be adding new product lineups to our popular series, as well as new office items and an overview of "Live Office" in Tokyo.</p>
     </section>
       <Link to="/"></Link>
   </Layout>

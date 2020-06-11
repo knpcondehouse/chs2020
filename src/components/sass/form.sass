@@ -1,4 +1,54 @@
-.chs-form
+$red: #cc0000
+$browsersm: 1000px
+$tablet: 800px
+$phoneup: 600px
+
+.form-wrap
   padding: 50px
+  display: flex
+  align-items: end
+  @media screen and (max-width: $tablet)
+    padding: 25px
+    display: block
+
+.flex-left
+  width: 70%
+  padding-right: 50px
+  h3
+    line-height: 2.5rem
+  @media screen and (max-width: $tablet)
+    width: 100%
+    padding-right: 0px
+    h3
+      font-size: 1.3rem
+      padding-bottom: 0
+      margin-bottom: 15px
+
+.flex-right
+  width: 30%
+  @media screen and (max-width: $tablet)
+    width: 100%
+
+.chs-form
+  @media screen and (max-width: $tablet)
+    max-width: 400px
+    margin-top: 50px
   div
-    margin: 25px 0
+    padding: 10px 0
+    max-width: 500px
+    label
+      font-size: 1rem
+
+    input
+      height: 30px
+      float: right
+      width: 200px
+      @media screen and (max-width: $tablet)
+        max-width: 400px
+
+#event-to-attend
+  width: 100%
+.chs-send-button
+   width: 100%
+   height: 50px
+   margin-top: 25px

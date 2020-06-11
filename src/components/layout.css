@@ -255,13 +255,13 @@ h2 {
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 2.5rem;
-  line-height: 1.1;
+  line-height: 1.8;
 }
 h3 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  padding-bottom: 25px;
+  padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
@@ -272,7 +272,7 @@ h3 {
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 2rem;
-  line-height: 1.1;
+  line-height: 1.8;
 }
 
 h4 {
@@ -290,7 +290,7 @@ h4 {
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 1.5rem;
-  line-height: 1.1;
+  line-height: 1.8;
   letter-spacing: 2px
 }
 h5 {
@@ -389,11 +389,11 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.2rem;
   font-family: sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
-  line-height: 2;
+  line-height: 1.8rem;
 }
 figure {
   margin-left: 0;
