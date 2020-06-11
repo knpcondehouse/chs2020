@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import "./sass/mixin.scss"
 import "./sass/style.sass"
+import "./sass/form.sass"
 
 
 
