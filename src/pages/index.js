@@ -26,7 +26,7 @@ const IndexPage = () => (
       <h3 data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">7/4<span className="dayoftheweek">Sat</span>New Item Debut</h3>
       <div>
         <div className="product-box cap">
-          <div className="videobox" data-sal="slide-right" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
+          <div className="videobox">
             <video playsinline="true" preload='auto' loop autoPlay muted>
               <source src={Video2} type="video/mp4" />
            Your browser does not support HTML5 video.
@@ -41,7 +41,7 @@ const IndexPage = () => (
       </div>
       <div className="product-box-margin">
         <div className="product-box cap">
-          <div className="videobox" data-sal="slide-left" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease">
+          <div className="videobox">
             <video playsinline="true" webkit-playsinline preload='auto' loop autoPlay muted>
               <source src={Video1} type="video/mp4" />
            Your browser does not support HTML5 video.
