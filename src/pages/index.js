@@ -27,7 +27,7 @@ const IndexPage = () => (
       <div>
         <div className="product-box cap">
           <div className="videobox">
-            <video playsinline="true" preload='auto' loop autoPlay muted>
+            <video playsinline="true" webkit-playsinline="true" preload='auto' loop autoPlay muted>
               <source src={Video2} type="video/mp4" />
            Your browser does not support HTML5 video.
            </video>
