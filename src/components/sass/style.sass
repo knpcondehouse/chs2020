@@ -201,12 +201,14 @@ section
 
 .videobox
   margin: 0 auto
+  @media screen and (max-width: $tablet)
+      iframe
+        height: 350px
   @media screen and (max-width: $phoneup)
     width: 100%
-  video
-    width: 100%
-    object-fit: fill
-    margin-bottom: 25px
+    iframe
+      height: 250px
+
 
 .column-text
   padding: 25px
@@ -283,7 +285,7 @@ footer
   background-color: $red
   clear: both
   @media screen and (max-width: $phoneup)
-    height: 200px
+    height: inherit
 
 .footermenu
   display: flex
@@ -301,3 +303,4 @@ footer
     color: #fff
   @media screen and (max-width: $phoneup)
     display: block
+    height: inherit

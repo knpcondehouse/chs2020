@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout-en"
-import Video1 from "../../static/kotan.mp4"
-import Video2 from "../images/kyobashi.mp4"
 import Motion from "../images/motion.mp4"
 import SEO from "../components/seo"
 
@@ -26,10 +24,7 @@ const IndexPage = () => (
       <div>
         <div className="product-box cap">
           <div className="videobox" data-sal="slide-right" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
-            <video playsinline="true" preload='auto' loop autoPlay muted>
-              <source src={Video2} type="video/mp4" />
-           Your browser does not support HTML5 video.
-           </video>
+            <iframe width="100%" height="450px" src="https://www.youtube.com/embed/QBK5QDbKooE?showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div className="column-text" data-sal="slide-left" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KYOBASHI</h4>
@@ -40,11 +35,8 @@ const IndexPage = () => (
       </div>
       <div className="product-box-margin">
         <div className="product-box cap">
-          <div className="videobox" data-sal="slide-left" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease">
-            <video playsinline="true" webkit-playsinline preload='auto' loop autoPlay muted>
-              <source src={Video1} type="video/mp4" />
-           Your browser does not support HTML5 video.
-           </video>
+          <div className="videobox" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
+            <iframe width="100%" height="450px" src="https://www.youtube.com/embed/3yY202EaS-o?showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div className="column-text" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KOTAN</h4>

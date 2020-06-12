@@ -35,6 +35,7 @@ const Layout = ({ children }) => {
             <a href="https://www.facebook.com/condehouse/" alt="Condehouse Facebook"><li>→ Facebook</li></a>
             <a href="https://www.instagram.com/condehouse_official/" alt="Conde House Instagram"><li>→ Instagram</li></a>
             <Link to="/en"><li>→ English Page</li></Link>
+            <span className="clear"></span>
           </ul>
 
         </footer>
