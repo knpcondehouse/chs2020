@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Kyobashi from "../images/kyobashi.jpg"
+import Helmet from 'react-helmet'
 
 const IndexPage = () => (
   <Layout>
@@ -29,6 +30,7 @@ const IndexPage = () => (
       <form name="CHS2020 Contact Form" method="POST" data-netlify="true" action="/thankyou" className="cap chs-form">
         <input type="hidden" name="form-name" value="CHS2020 Contact Form" />
         <h5><span className="registration" ></span>エントリーフォーム</h5>
+        <small>*媒体名以外は必須項目です。法人以外の方はその他と記載してください。</small>
         <div>
           <p>
             <label>姓　</label>
@@ -41,37 +43,37 @@ const IndexPage = () => (
         </div>
         <div>
           <p>
-            <label>読み（姓）</label>
+            <label>フリガナ（姓）</label>
             <input type="text" name="lastname-kana" />
           </p>
           <p>
-            <label>読み（名）</label>
+            <label>フリガナ（名）</label>
             <input type="text" name="firstname-kana" />
           </p>
         </div>
         <div>
-          <label>会社名</label>
-          <input type="text" name="company" />
+          <p><label>会社名</label>
+          <input type="text" name="company" /></p>
         </div>
         <div>
-          <label>役職</label>
-          <input type="text" name="役職" />
+          <p><label>部署</label>
+          <input type="text" name="部署" /></p>
         </div>
         <div>
-          <label>部署・役職</label>
-          <input type="text" name="position" />
+          <p><label>媒体名</label>
+          <input type="text" name="媒体名" /></p>
         </div>
         <div>
-          <label>Eメールアドレス</label>
-          <input type="email" name="email" />
+          <p><label>Eメールアドレス</label>
+          <input type="email" name="email" id="email" /></p>
         </div>
         <div>
-          <label>参加日時を選択してください。</label>
+          <p><label>参加日時を選択してください。</label>
           <select id="event-to-attend" name="参加予定">
-            <option value="2nd">7/2 (13:00〜13:30)</option>
+            <option value="2nd">7/2 (14:00〜15:00)</option>
             <option value="3rd">7/3（13:00〜13:30）</option>
             <option value="both">7/2 & 7/3（13:00〜13:30）</option>
-          </select>
+          </select></p>
           </div>
         <button className="chs-send-button" type="submit">参加予約を送信</button>
       </form>
