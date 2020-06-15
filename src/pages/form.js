@@ -26,59 +26,10 @@ const IndexPage = () => (
         <p>「エントリーフォーム」に必要事項をご入力ください。</p>
       </div>
     </div>
-    <div className="flex-right shadow" data-sal="slide-left" data-sal-duration="1500" data-sal-delay="500" data-sal-easing="ease">
-      <form name="CHS2020 Contact Form" method="POST" data-netlify="true" action="/thankyou" className="cap chs-form">
-        <input type="hidden" name="form-name" value="CHS2020 Contact Form" />
-        <h5><span className="registration" ></span>エントリーフォーム</h5>
-        <small>*媒体名以外は必須項目です。法人以外の方はその他と記載してください。</small>
-        <div>
-          <p>
-            <label>姓　</label>
-            <input type="text" name="lastname" />
-          </p>
-          <p>
-            <label>名　</label>
-            <input type="text" name="firstname" />
-          </p>
-        </div>
-        <div>
-          <p>
-            <label>フリガナ（姓）</label>
-            <input type="text" name="lastname-kana" />
-          </p>
-          <p>
-            <label>フリガナ（名）</label>
-            <input type="text" name="firstname-kana" />
-          </p>
-        </div>
-        <div>
-          <p><label>会社名</label>
-          <input type="text" name="company" /></p>
-        </div>
-        <div>
-          <p><label>部署</label>
-          <input type="text" name="部署" /></p>
-        </div>
-        <div>
-          <p><label>媒体名</label>
-          <input type="text" name="媒体名" /></p>
-        </div>
-        <div>
-          <p><label>Eメールアドレス</label>
-          <input type="email" name="email" id="email" /></p>
-        </div>
-        <div>
-          <p><label>参加日時を選択してください。</label>
-          <select id="event-to-attend" name="参加予定">
-            <option value="2nd">7/2 (14:00〜15:00)</option>
-            <option value="3rd">7/3（13:00〜13:30）</option>
-            <option value="both">7/2 & 7/3（13:00〜13:30）</option>
-          </select></p>
-          </div>
-        <button className="chs-send-button" type="submit">参加予約を送信</button>
-      </form>
+    <div className="flex-right">
+      <a href="http://eepurl.com/g6ZSeL" >エントリーフォーム</a>
     </div>
-    </div>
+  </div>
   </Layout>
 )
 

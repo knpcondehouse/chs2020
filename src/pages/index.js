@@ -29,7 +29,7 @@ const IndexPage = () => (
           </div>
           <div className="column-text" data-sal="slide-left" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KYOBASHI</h4>
-            <h5>design TONERICO:INC. <br />Hiroshi Yoneya</h5>
+            <a href="https://www.tonerico-inc.com/"><h5>design TONERICO:INC. <br />Hiroshi Yoneya</h5></a>
             <p>旧ブリヂストン美術館が館名変更し、2020年1月に新しく「アーティゾン美術館」として開館。トネリコ 米谷ひろし氏が美術館のためにデザインしたアームチェアー・サイドチェアーをもとにカンディハウスオリジナルとして発表します。更に洗練された新提案をご覧ください。</p>
           </div>
         </div>
@@ -41,7 +41,7 @@ const IndexPage = () => (
           </div>
           <div className="column-text" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KOTAN</h4>
-            <h5>design Naoto Fukasawa</h5>
+            <a href="https://naotofukasawa.com/"><h5>design Naoto Fukasawa</h5></a>
             <p>「次代のロングライフプロダクト」を目指して深澤直人氏と開発したシリーズ「KOTAN」。椅子の発売から1年が経ち、この度テーブルやハイチェアーや異素材とのコンビネーション、空間提案の幅を広げる多くのアイテムを追加発表いたします。</p>
           </div>
         </div>
@@ -49,13 +49,15 @@ const IndexPage = () => (
     </section>
     <section className="chs-sales">
       <h2 data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease"><span className="schedule"></span>Event</h2>
-      <p data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">デザイナーインタビューを含む新作・新提案プレゼンテーションを行います。参加受付の開始は近日中にお知らせいたします。</p>
+      <p data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">デザイナーインタビューを含む新作・新提案プレゼンテーションを行います。各イベントの参加受付は定員に達し次第終了させていただきます。</p>
       <div className="lineup cap">
         <div className="event-dates">
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease"><h4>7/2 <span>thu</span></h4></div>
-          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease"><h4>KYOBASHI・KOTAN プレビュー for プレス<br />KYOBASHI・KOTAN プレビュー for ビジネス<br />【ゲスト出演予定】米谷ひろし・深澤直人</h4></div>
+          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease"><h4>KYOBASHI・KOTAN プレビュー for プレス
+            <br /><a className="button" href="http://eepurl.com/g6ZSeL">→　プレス向け事前登録</a>
+            <br />KYOBASHI・KOTAN プレビュー for ビジネス<br /><a href="http://eepurl.com/g6-tjD" className="button">→　ビジネス向け事前登録</a><br />【ゲスト出演】米谷ひろし・深澤直人</h4></div>
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease"><h4>7/3 <span>fri</span></h4></div>
-          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease"><h4>新作・新提案プレゼンテーション for ビジネス</h4></div>
+          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease"><h4>新作・新提案プレゼンテーション for ビジネス<br />ビジネスクライアント限定: 参加受付は後日ご案内させていただきます。</h4></div>
         </div>
       </div>
     </section>
