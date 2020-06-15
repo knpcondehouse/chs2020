@@ -54,10 +54,12 @@ const IndexPage = () => (
         <div className="event-dates">
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease"><h4>7/2 <span>thu</span></h4></div>
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease"><h4>KYOBASHI・KOTAN プレビュー for プレス
-            <br /><a className="button" href="http://eepurl.com/g6ZSeL">→　プレス向け事前登録</a>
-            <br />KYOBASHI・KOTAN プレビュー for ビジネス<br /><a href="http://eepurl.com/g6-tjD" className="button">→　ビジネス向け事前登録</a><br />【ゲスト出演】米谷ひろし・深澤直人</h4></div>
+            <br /><a className="button" href="http://eepurl.com/g6ZSeL">→　プレス向け事前登録</a></h4>
+            <h4>KYOBASHI・KOTAN プレビュー for ビジネス<br /><a href="http://eepurl.com/g6-tjD" className="button">→　ビジネス向け事前登録</a></h4><h4>【ゲスト出演】米谷ひろし・深澤直人</h4></div>
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease"><h4>7/3 <span>fri</span></h4></div>
-          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease"><h4>新作・新提案プレゼンテーション for ビジネス<br />ビジネスクライアント限定: 参加受付は後日ご案内させていただきます。</h4></div>
+          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
+          <h4>新作・新提案プレゼンテーション for ビジネス</h4>
+          <p className="left">ビジネスクライアント限定: 参加受付は後日ご案内させていただきます。</p></div>
         </div>
       </div>
     </section>
