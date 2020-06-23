@@ -52,7 +52,8 @@ const IndexPage = () => (
       <div className="lineup cap">
         <div className="event-dates">
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease"><h4>7/2 <span>thu</span></h4></div>
-          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease"><h4>KYOBASHI・KOTAN Preview for Press<br />KYOBASHI・KOTAN Preview for Business<br />[Guests] Hiroshi Yoneya and Naoto Fukasawa</h4></div>
+          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease"><h4>KYOBASHI・KOTAN Preview for Press<br />KYOBASHI・KOTAN Preview for Business<br /><a className="button" href="https://forms.gle/uJV1QoV1bGkoQPaPA" alt="Conde House Style 2020 Registration Form">→　Event Registration for Business</a>
+          <br />[Guests] Hiroshi Yoneya and Naoto Fukasawa</h4></div>
         </div>
       </div>
     </section>
