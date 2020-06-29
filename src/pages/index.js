@@ -59,7 +59,7 @@ const IndexPage = () => (
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease"><h4>7/3 <span>fri</span></h4></div>
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
           <h4>新作・新提案プレゼンテーション for ビジネス</h4>
-          <p className="left">ビジネスクライアント限定でご案内いたしております。<br />お問い合わせは<a href="mailto:chstyle_business@condehouse.co.jp">こちら</a>まで、メールにてご連絡願います。</p></div>
+          <p className="left">ビジネスクライアント限定でご案内いたしております。<br />お問い合わせは<a href="mailto:chstyle_business@condehouse.co.jp" >chstyle_business@condehouse.co.jp</a>まで、メールにてご連絡願います。</p></div>
         </div>
       </div>
     </section>
