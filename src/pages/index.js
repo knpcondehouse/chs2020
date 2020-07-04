@@ -68,6 +68,7 @@ const IndexPage = () => (
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
           <h4>新作・新提案プレゼンテーション for ビジネス</h4>
           <p className="left">→　たくさんのご参加ありがとうございました。</p></div>
+          <a className="brownbutton" href="/qanda">当日行われたQ&Aはこちら</a>
         </div>
       </div>
     </section>

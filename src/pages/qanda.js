@@ -19,7 +19,7 @@ const IndexPage = () => (
           <p>デザイナーより、カタログでは語られていない開発エピソードもございますのでぜひ御覧ください。（一部抜粋した内容になります）</p>
           <h4>7月3日開催　KYOBASHI / KOTAN <br />プレビュー for プレス</h4>
           <p className="question"><span className="qicon"></span>新作の点数は？</p>
-          <p><span className="aicon"></span>KYOBASHI2点KOTAN35点（サイズ、座面、天板のバリエーションを含む）チェアー2、スツール2、ハイチェアー3、ハイスツール3、テーブル16、ハイテーブル2、ローテーブル6、ドーリー1</p>
+          <p><span className="aicon"></span>KYOBASHI2点、KOTAN35点（サイズ、座面、天板のバリエーションを含む）チェアー2、スツール2、ハイチェアー3、ハイスツール3、テーブル16、ハイテーブル2、ローテーブル6、ドーリー1</p>
           <p className="question"><span className="qicon"></span>どこで購入できますか？青山のショップだけでしょうか。</p>
           <p><span className="aicon"></span>海外含めて7月4日より発売となります。展示は全国のショップに展開しています（京都を除く）。</p>
           <p className="question"><span className="qicon"></span>深澤さまへ。インタビューにとても楽しそうに答えていらっしゃいますが、開発作業中、カンディハウスとのやりとりで面白かった出来事や会話があれば具体的に教えてください。</p>
