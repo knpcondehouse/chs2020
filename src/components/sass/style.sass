@@ -365,6 +365,54 @@ section
       width: 100%
       margin-top: 50px
 
+.qanda
+  padding-top: 100px
+  background-color: $darkbrown
+  @media screen and (max-width: 900px)
+    padding-top: 0px
+    padding-bottom: 0px
+  h4
+    font-weight: 800
+    font-size: 1.3rem
+    text-align: center
+    margin-top: 100px
+    margin-bottom: 100px
+    @media screen and (max-width: $phoneup)
+      margin-top: 50px
+      margin-bottom: 50px
+  .vstext
+    margin-top: 0
+    padding-top: 50px
+    background-color: $beige
+
+.question
+  font-weight: 800
+
+.qicon
+  margin-top: 50px
+  &::before
+    content: 'Q'
+  background-color: $red
+  font-size: 12px
+  color: #fff
+  line-height: 50px
+  vertical-align: middle
+  margin-right: 10px
+  padding: 7px
+
+.aicon
+  &::before
+    content: 'A'
+  background-color: $red
+  font-size: 12px
+  color: #fff
+  line-height: 50px
+  vertical-align: middle
+  margin-right: 10px
+  padding: 7px
+  font-weight: 800
+
+
 .nextupdates
   text-align: center
 
