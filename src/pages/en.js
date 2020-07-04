@@ -3,6 +3,10 @@ import { Link } from "gatsby"
 import Layout from "../components/layout-en"
 import Motion from "../images/motion.mp4"
 import SEO from "../components/seo"
+import VS from "../images/virtualshop.jpg"
+import Vs1 from "../images/asahikawa.png"
+import Vs2 from "../images/tokyo.jpg"
+import Vs3 from "../images/osaka.png"
 
 const IndexPage = () => (
   <Layout>
@@ -24,7 +28,7 @@ const IndexPage = () => (
       <div>
         <div className="product-box cap">
           <div className="videobox" data-sal="slide-right" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
-            <iframe width="100%" height="450px" src="https://www.youtube.com/embed/QBK5QDbKooE?showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="450px" src="https://www.youtube.com/embed/iV8GC2TVPdI?showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div className="column-text" data-sal="slide-left" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KYOBASHI</h4>
@@ -36,7 +40,7 @@ const IndexPage = () => (
       <div className="product-box-margin">
         <div className="product-box cap">
           <div className="videobox" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
-            <iframe width="100%" height="450px" src="https://www.youtube.com/embed/3yY202EaS-o?showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="450px" src="https://www.youtube.com/embed/v-ykdJZx3Lc?showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div className="column-text" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>KOTAN</h4>
@@ -52,8 +56,37 @@ const IndexPage = () => (
       <div className="lineup cap">
         <div className="event-dates">
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease"><h4>7/2 <span>thu</span></h4></div>
-          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease"><h4>KYOBASHI・KOTAN Preview for Press<br />KYOBASHI・KOTAN Preview for Business<br /><a className="button" href="https://forms.gle/uJV1QoV1bGkoQPaPA" alt="Conde House Style 2020 Registration Form">→　Event Registration for Business</a>
-          <br />[Guests] Hiroshi Yoneya and Naoto Fukasawa</h4></div>
+          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease"><h4>KYOBASHI・KOTAN Preview for Press<br />KYOBASHI・KOTAN Preview for Business<br />
+          [Guests] Hiroshi Yoneya and Naoto Fukasawa</h4>
+          <p className="left">→　Thank you for your attendence!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className="virtualshop">
+      <img src={ VS } alt="Conde House virtual shop" />
+      <div className="cap vstext">
+        <div className="vstext-box">
+          <h3>Conde House Virtual Shop</h3>
+          <p>Our Virtual Showroom is now open. Experience Conde House Shops on your browser and smartphone from anywhere.</p>
+          <p>Our flagship Asahikawa HQ shop has the largest selection of all. You will find items only available here as well as themed contract spaces for office and lounge.</p>
+          <p>The Tokyo shop has an extensive collection of art and interior. You can check out our furniture in various settings such as living room, dining room, and bedroom at the Osaka shop.</p>
+          <p>Clicking arrows in the virtual showroom will take you to detailed product pages. Don't miss out on this whole new way to experience our products and showrooms.</p>
+        </div>
+        <div className="vstrio">
+          <div>
+            <img src={ Vs1 } alt="Conde House Asahikawa Virtual Shop"/>
+            <a className="brownbutton" href="https://my.matterport.com/show/?m=Zmb81bhq3GS" alt="Conde House Asahikawa Virtual Shop">旭川南SHOP</a>
+            <a className="brownbutton" href="https://my.matterport.com/show/?m=rbBA3xSZcTB&play=1"alt="Conde House Asahikawa Virtual Shop">旭川東SHOP</a>
+          </div>
+          <div>
+            <img src={ Vs2 } alt="Conde House Asahikawa Virtual Shop"/>
+            <a className="brownbutton" href="https://my.matterport.com/show/?m=4mRcR2zxyFC" alt="Conde House Asahikawa Virtual Shop">東京SHOP</a>
+          </div>
+          <div>
+            <img src={ Vs3 } alt="Conde House Asahikawa Virtual Shop"/>
+            <a className="brownbutton" href="https://my.matterport.com/show/?m=HpFTXfa95KS" alt="Conde House Asahikawa Virtual Shop">大阪SHOP</a>
+          </div>
         </div>
       </div>
     </section>
