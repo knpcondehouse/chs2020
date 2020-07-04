@@ -44,7 +44,7 @@ const IndexPage = () => (
           <p className="question"><span className="qicon"></span>カタログ送ってください</p>
           <p><span className="aicon"></span>2020年カタログをお持ちでない方は担当営業か当社HPにてご請求ください。<a href="https://www.condehouse.co.jp/catalogue/request/">こちら</a>からの請求される場合はコンパクト版になります。</p>
           <p className="question"><span className="qicon"></span>納期はどのくらいかかりますか？</p>
-          <p><span className="aicon"></span>現在日本全国へ受注から1か月以内の納品を目指しておりますが、コロナ禍の影響などで、なかなかその計画が進められていません。今後もできるだけ納期を短縮していく努力を続けます。ただし、コントラクト市場で「椅子50脚」など数量が多い案件や特注家具などの場合には、都度担当営業へ納期はご相談ください。</p>
+          <p><span className="aicon"></span>現在日本全国へ受注から1か月以内の納品を目指しておりますが、現在はコロナの感染拡大により、一部、影響も受けています。今後もできるだけ納期を短縮していく努力を続けます。ただし、コントラクト市場で「椅子50脚」など数量が多い案件や特注家具などの場合には、都度担当営業へ納期はご相談ください。</p>
           <h4>7月3日開催 新作・新提案プレゼンテーション<br />for ビジネス / ホールセール</h4>
           <p className="question"><span className="qicon"></span> ワークショップについて、マルチスツール以外に、何かアイテムをお考えでしょうか？</p>
           <p><span className="aicon"></span>まずはマルチスツールを皮切りにと考えており、ゆくゆくは他の製品も考えていきますが現段階では具体的になっておりません。</p>
