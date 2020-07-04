@@ -55,6 +55,8 @@ const IndexPage = () => (
           <p><span className="aicon"></span>KOTANはURLをお送りできます。KYOBASHIは現在制作中となっています。出来上がりましたらお送りします。ぜひ営業担当までお問い合わせください。</p>
           <p className="question"><span className="qicon"></span>コロナ禍で、消毒などを考えるお客さまが増えていますが、御社の家具は消毒・除菌などに対してどのような対応となっていますか。</p>
           <p><span className="aicon"></span><a href="http://www.condehouse.co.jp/contents/manual/corona_maintenance.pdf">こちら</a>資料を御覧ください。</p>
+          <p className="question"><span className="qicon"></span>2日のプレビューはどこかで後日配信されますか？</p>
+          <p><span className="aicon"></span>配信を予定しております。詳細が決まり次第改めてお知らせいたします。</p>
         </div>
       </div>
     </section>
