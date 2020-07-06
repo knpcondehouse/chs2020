@@ -188,15 +188,16 @@ section
 .items-container
   text-align: center
   background-color: $beige
-  h3
-    text-transform: uppercase
-    border-bottom: 5px solid $red
-    display: inline-block
-    padding-bottom: 10px
 
-    @media screen and (max-width: $phoneup)
-      font-size: 22px
-      padding-bottom: 0px
+.redunderbar
+  text-transform: uppercase
+  border-bottom: 5px solid $red
+  padding-bottom: 10px
+  text-align: center
+  display: inline
+  @media screen and (max-width: $phoneup)
+    font-size: 22px
+    padding-bottom: 0px
 
 .product-box
   display: block
@@ -319,11 +320,15 @@ section
     padding: 25px
     margin-top: 50px
 
+.topmargin
+  margin-top: 50px
+
 .vstext-box
   max-width: 600px
   margin: 0 auto
   padding-top: 50px
   padding-bottom: 50px
+  text-align: center
   @media screen and (max-width: $phoneup)
     padding-top: 0px
     padding-bottom: 25px

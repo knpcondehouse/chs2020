@@ -25,7 +25,7 @@ const IndexPage = () => (
       <p>国内外含めた世界同時配信にてお届けいたします。ぜひご期待ください。</p>
     </section>
     <section data="item-videos" className="items-container">
-      <h3 data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">7/4<span className="dayoftheweek">Sat</span>New Item Debut</h3>
+      <h3 className="redunderbar" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">7/4<span className="dayoftheweek">Sat</span>New Item Debut</h3>
       <div>
         <div className="product-box cap">
           <div className="videobox" data-sal="slide-right" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
@@ -76,8 +76,8 @@ const IndexPage = () => (
       <img src={ VS } alt="Conde House virtual shop" />
       <div className="cap vstext">
         <div className="vstext-box">
-          <h3>Conde House Virtual Shop</h3>
-          <p>「CONDE HOUSE バーチャルショップ」がオープンいたしました。お持ちのパソコンやスマートフォンを使用し、ご自宅に居ながらカンディハウスショップをご体感いただけます。</p>
+          <h3 className="redunderbar" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">Conde House Virtual Shop</h3>
+          <p className="topmargin">「CONDE HOUSE バーチャルショップ」がオープンいたしました。お持ちのパソコンやスマートフォンを使用し、ご自宅に居ながらカンディハウスショップをご体感いただけます。</p>
           <p>本社・旭川のショップは、主力製品のほぼすべてを展示し、他のショップでは見られないアイテムや、オフィスやラウンジなどコントラクト向けの空間も展開。</p>
           <p>東京ショップでは、アートやインテリアエレメント情報も充実。大阪ショップも、リビング・ダイニング・ベッドルームとトータルに空間をご覧いただけます。</p>
           <p>バーチャルショップでは、アイテムクリックで詳細情報もご確認いただけますので、ぜひお気軽にご来店ください。</p>

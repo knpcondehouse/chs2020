@@ -14,8 +14,8 @@ const IndexPage = () => (
     <section className="virtualshop qanda">
       <div className="cap vstext">
         <div className="vstext-box">
-          <h3>CONDE HOUSE STYLE <br />Question and Answer</h3>
-          <p>7月2日　KYOBASHI / KOTAN プレビュー、7月3日　新作・新提案プレゼンテーションにていただいたご質問の回答を以下に紹介します。</p>
+          <h3 className="redunderbar">CONDE HOUSE STYLE <br />Question and Answer</h3>
+          <p className="topmargin">7月2日　KYOBASHI / KOTAN プレビュー、7月3日　新作・新提案プレゼンテーションにていただいたご質問の回答を以下に紹介します。</p>
           <p>デザイナーより、カタログでは語られていない開発エピソードもございますのでぜひ御覧ください。（一部抜粋した内容になります）</p>
           <h4>7月3日開催　KYOBASHI / KOTAN <br />プレビュー for プレス</h4>
           <p className="question"><span className="qicon"></span>新作の点数は？</p>
