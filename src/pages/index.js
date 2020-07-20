@@ -183,10 +183,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="nextupdates">
-      <h3><span className="comingsoonspan"></span>Next Updates</h3>
-      <p>この後も人気シリーズの追加ラインアップや新シリーズを発表予定。</p>
-    </section>
+  
       <Link to="/"></Link>
   </Layout>
 )
