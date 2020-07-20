@@ -55,7 +55,7 @@ const IndexPage = () => (
       </div>
     </section>
     <section data="item-videos" className="items-container" id="kotankyobashi" id="july30">
-      <h3 className="redunderbar" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">7/30<span className="dayoftheweek">Thu</span>New Item Debut</h3>
+      <h3 className="redunderbar" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">7/31<span className="dayoftheweek">Fri</span>New Item Debut</h3>
       <p className="july30intro cap">お客さまからのご要望に応え誕生した新アイテムを7月31日に発表・発売いたします。機能にこだわり、心地よい使用感を目指した新作家具をホームユースのみならず公共施設やオフィス、レストラン等幅広い空間にご提案いたします。
       </p>
       <div className="product-box-margin">
@@ -65,6 +65,7 @@ const IndexPage = () => (
           </div>
           <div className="column-text" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>WING LUX</h4>
+            <a href="https://www.tonerico-inc.com/"><h5>design Kiyoshi Sadogawa</h5></a>
             <p>カンディハウスを代表するチェアー「WING LUX (ウイング ラックス)」に背張りタイプが加わりました。ふくよかな形状の笠木で包まれるような背あたりが人気のアイテムに、さらに長時間心地よく座れるよう、背のクッション性を高めました。</p>
           </div>
         </div>
@@ -86,8 +87,8 @@ const IndexPage = () => (
           <img src={Gridimg2} alt="new item 7/30" className="shadows" />
           </div>
           <div className="column-text" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
-            <h4><span className="newsicon"></span>TLテーブル</h4>
-            <p>ベンチと組み合わせたときに出入りがしやすく、脚元が広いT字脚の「TLテーブル」を元に無垢天板タイプを新しく発表します。天板は幅を50mm単位で選べる充実のサイズ展開。無垢材の節や木目といった心地よい天然素材の質感をお楽しみいただけます。</p>
+            <h4><span className="newsicon"></span>TLテーブル（20）</h4>
+            <p>ベンチと組み合わせたときに出入りがしやすく、脚元が広いT字脚の「TLテーブル（20）」を元に無垢天板タイプを新しく発表します。天板は幅を50mm単位で選べる充実のサイズ展開。無垢材の節や木目といった心地よい天然素材の質感をお楽しみいただけます。</p>
           </div>
         </div>
       </div>
@@ -183,7 +184,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-  
+
       <Link to="/"></Link>
   </Layout>
 )
