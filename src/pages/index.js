@@ -7,6 +7,11 @@ import VS from "../images/virtualshop.jpg"
 import Vs1 from "../images/asahikawa.png"
 import Vs2 from "../images/tokyo.jpg"
 import Vs3 from "../images/osaka.png"
+import July30main from "../images/main.jpg"
+import Gridimg1 from "../images/cl-table.jpg"
+import Gridimg2 from "../images/tl-table.jpg"
+import Gridimg3 from "../images/wing.jpg"
+import Kyobashi from "../images/kyobashi-group.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -24,7 +29,87 @@ const IndexPage = () => (
       <p>オフィスや家での過ごし方が見直され、生活スタイルや働き方が多様化する現代、<br />カンディハウスはお客さまとともに、より豊かなくらしを考えて参ります。</p>
       <p>国内外含めた世界同時配信にてお届けいたします。ぜひご期待ください。</p>
     </section>
-    <section data="item-videos" className="items-container">
+    <section className="series-section">
+      <div className="trio-grid bigcap" data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
+        <a href="#july30">
+          <div>
+            <img src={July30main} />
+            <h4>7/31 DEBUT</h4>
+            <p>3つの新作プレビューイベントを開催</p>
+          </div>
+        </a>
+        <a href="#kotankyobashi">
+          <div>
+            <img src={Kyobashi} />
+            <h4>7/4 DEBUT</h4>
+            <p>新作 Kyobashi / Kotan を発売</p>
+          </div>
+        </a>
+        <a href="#virtualshowroom" alt="link to virtual showroom">
+          <div>
+            <img src={VS} />
+            <h4>Virtual Shop</h4>
+            <p>バーチャルショップをオープン</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section data="item-videos" className="items-container" id="kotankyobashi" id="july30">
+      <h3 className="redunderbar" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">7/30<span className="dayoftheweek">Thu</span>New Item Debut</h3>
+      <p className="july30intro cap">お客さまからのご要望に応え誕生した新アイテムを7月31日に発表・発売いたします。機能にこだわり、心地よい使用感を目指した新作家具をホームユースのみならず公共施設やオフィス、レストラン等幅広い空間にご提案いたします。
+      </p>
+      <div className="product-box-margin">
+        <div className="product-box cap">
+          <div className="videobox" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
+            <img src={Gridimg3} alt="new item 7/30" className="shadows" />
+          </div>
+          <div className="column-text" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
+            <h4><span className="newsicon"></span>WING LUX</h4>
+            <p>カンディハウスを代表するチェアー「WING LUX (ウイング ラックス)」に背張りタイプが加わりました。ふくよかな形状の笠木で包まれるような背あたりが人気のアイテムに、さらに長時間心地よく座れるよう、背のクッション性を高めました。</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="product-box cap">
+          <div className="videobox" data-sal="slide-right" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
+            <img src={Gridimg1} alt="new item 7/30" className="shadows"/>
+          </div>
+          <div className="column-text" data-sal="slide-left" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
+            <h4><span className="newsicon"></span>CLテーブル</h4>
+            <p>角の丸い天板と、先細りした丸脚のデザインが、どこか優しく軽快な新作ダイニングテーブルを発表。天板は長方形と正方形、全52サイズから選べるラインアップが特長で、複数台並べて使うことも想定し緻密にデザインした、機能的なアイテムです。北海道産のタモ材とナラ材を各7色ご用意しました。</p>
+          </div>
+        </div>
+      </div>
+      <div className="product-box-margin">
+        <div className="product-box cap">
+          <div className="videobox" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
+          <img src={Gridimg2} alt="new item 7/30" className="shadows" />
+          </div>
+          <div className="column-text" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
+            <h4><span className="newsicon"></span>TLテーブル</h4>
+            <p>ベンチと組み合わせたときに出入りがしやすく、脚元が広いT字脚の「TLテーブル」を元に無垢天板タイプを新しく発表します。天板は幅を50mm単位で選べる充実のサイズ展開。無垢材の節や木目といった心地よい天然素材の質感をお楽しみいただけます。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className="chs-sales">
+      <h2 data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease"><span className="schedule"></span>Event</h2>
+      <p className="cap" data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">ビジネスクライアントの皆さまに一足早くご紹介するプレビューを開催。WEBセミナーツールを利用し、デザイナーや開発担当者が新作の魅力をお伝えしますので、ぜひご参加ください。イベントの参加受付は定員に達し次第終了させていただきます。</p>
+      <div className="lineup cap">
+        <div className="event-dates">
+          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease"><h4>7/30 <span>thu</span></h4></div>
+          <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease">
+            <h4>新作プレビュー for ビジネス</h4>
+            <h4>ゲスト: WING LUXデザイナー 佐戸川 清</h4>
+            <h4>全2回<br />1回目　11:00 〜 11:40</h4>
+            <a className="brownbutton" href="http://eepurl.com/g6-tjD" alt="July 30 Registration">7/30 11:00 〜 11:40 に参加申込み</a>
+            <h4 className="topmargin">2回目　14：00〜14：40</h4>
+            <a className="brownbutton" href="http://eepurl.com/g-MeIv" alt="July 30 Afternoon Registration">7/30 14：00〜14：40 に参加申込み</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data="item-videos" className="items-container" id="kotankyobashi">
       <h3 className="redunderbar" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">7/4<span className="dayoftheweek">Sat</span>New Item Debut</h3>
       <div>
         <div className="product-box cap">
@@ -60,9 +145,8 @@ const IndexPage = () => (
         <div className="event-dates">
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease"><h4>7/2 <span>thu</span></h4></div>
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease"><h4>KYOBASHI・KOTAN プレビュー for プレス
-            </h4><p className="left">→　たくさんのご参加ありがとうございました。</p>
+            </h4>
             <h4>KYOBASHI・KOTAN プレビュー for ビジネス</h4>
-            <p className="left">→　たくさんのご参加ありがとうございました。</p>
             <h4>【ゲスト出演】米谷ひろし・深澤直人</h4></div>
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease"><h4>7/3 <span>fri</span></h4></div>
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
@@ -72,8 +156,8 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="virtualshop">
-      <img src={ VS } alt="Conde House virtual shop" />
+    <section className="virtualshop" id="virtualshowroom">
+      <img src={ VS } alt="Conde House virtual shop" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease" />
       <div className="cap vstext">
         <div className="vstext-box">
           <h3 className="redunderbar" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">Conde House Virtual Shop</h3>

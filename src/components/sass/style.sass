@@ -53,10 +53,16 @@ section
   @media screen and (max-width: $phoneup)
     padding: 50px 25px
 
+.series-section
+  padding-top: 0px
+
 .cap
   max-width: 900px
   margin: 0 auto
 
+.bigcap
+  max-width: 1200px
+  margin: 0 auto
 
 .widecap
   max-width: 1200px
@@ -392,6 +398,11 @@ section
     padding-top: 50px
     background-color: $beige
 
+.shadows
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(201,201,201,1)
+  -moz-box-shadow: 7px 7px 5px 0px rgba(201,201,201,1)
+  box-shadow: 7px 7px 5px 0px rgba(201,201,201,1)
+
 .question
   font-weight: 800
   margin-top: 70px
@@ -474,3 +485,37 @@ footer
   text-align: left !important
   a
     color: #000
+
+// july30 styles
+
+.trio-grid
+  display: flex
+  flex-direction: row
+  @media screen and (max-width: $tablet)
+    display: block
+  a
+    text-decoration: none
+    color: inherit
+    width: calc(100% / 3)
+    margin: 10px
+    overflow: hidden
+    text-align: center
+    h4
+      margin-top: 50px
+      text-transform: uppercase
+    img
+      margin-bottom: 0
+      transition: 0.3s
+      object-fit: cover
+      display: block
+      margin: 0 auto
+      max-height: 230px
+      &:hover
+        transition: 0.3s
+        transform: scale(1.1)
+      @media screen and (max-width: $tablet)
+        max-height: inherit
+
+.july30intro
+  margin-top: 50px
+  max-width: 900
