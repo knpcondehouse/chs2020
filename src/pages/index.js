@@ -13,7 +13,7 @@ import Gridimg2 from "../images/tl-table.jpg"
 import Gridimg3 from "../images/wing.jpg"
 import Kyobashi from "../images/kyobashi-group.jpg"
 import Sadogawa from "../images/sadogawa.jpg"
-import Chtop from "../images/ch-top.jpg"
+import Chtop from "../images/chs2020logo.jpg"
 
 const IndexPage = () => (
   <Layout>
