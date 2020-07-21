@@ -12,6 +12,7 @@ import Gridimg1 from "../images/cl-table.jpg"
 import Gridimg2 from "../images/tl-table.jpg"
 import Gridimg3 from "../images/wing.jpg"
 import Kyobashi from "../images/kyobashi-group.jpg"
+import Sadogawa from "../images/sadogawa.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -33,21 +34,21 @@ const IndexPage = () => (
       <div className="trio-grid bigcap" data-sal="slide-down" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">
         <a href="#july30">
           <div>
-            <img src={July30main} />
+            <img src={July30main} className="shadows"/>
             <h4>7/31 DEBUT</h4>
             <p>3つの新作プレビューイベントを開催</p>
           </div>
         </a>
         <a href="#kotankyobashi">
           <div>
-            <img src={Kyobashi} />
+            <img src={Kyobashi} className="shadows"/>
             <h4>7/4 DEBUT</h4>
             <p>新作 Kyobashi / Kotan を発売</p>
           </div>
         </a>
         <a href="#virtualshowroom" alt="link to virtual showroom">
           <div>
-            <img src={VS} />
+            <img src={VS} className="shadows" />
             <h4>Virtual Shop</h4>
             <p>バーチャルショップをオープン</p>
           </div>
@@ -101,6 +102,7 @@ const IndexPage = () => (
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease"><h4>7/30 <span>thu</span></h4></div>
           <div data-sal="slide-down" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease">
             <h4>新作プレビュー for ビジネス</h4>
+            <img src={Sadogawa} alt="sadogawa kiyoshi profile picture" className="shadows"/>
             <h4>ゲスト: WING LUXデザイナー 佐戸川 清</h4>
             <h4>全2回<br />1回目　11:00 〜 11:40</h4>
             <a className="brownbutton" href="http://eepurl.com/g6-tjD" alt="July 30 Registration">7/30 11:00 〜 11:40 に参加申込み</a>
