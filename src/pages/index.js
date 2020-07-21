@@ -36,7 +36,7 @@ const IndexPage = () => (
           <div>
             <img src={July30main} className="shadows"/>
             <h4>7/31 DEBUT</h4>
-            <p>3つの新作プレビューイベントを開催</p>
+            <p>新作プレビューイベントを開催</p>
           </div>
         </a>
         <a href="#kotankyobashi">
@@ -57,7 +57,7 @@ const IndexPage = () => (
     </section>
     <section data="item-videos" className="items-container" id="kotankyobashi" id="july30">
       <h3 className="redunderbar" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease">7/31<span className="dayoftheweek">Fri</span>New Item Debut</h3>
-      <p className="july30intro cap">お客さまからのご要望に応え誕生した新アイテムを7月31日に発表・発売いたします。機能にこだわり、心地よい使用感を目指した新作家具をホームユースのみならず公共施設やオフィス、レストラン等幅広い空間にご提案いたします。
+      <p className="july30intro cap">お客さまからのご要望に応え誕生した人気シリーズ「WING LUX」の追加アイテムをはじめ、新アイテムを7月31日に発表・発売いたします。機能にこだわり、心地よい使用感を目指した新作家具をホームユースのみならず公共施設やオフィス、レストラン等幅広い空間にご提案いたします。
       </p>
       <div className="product-box-margin">
         <div className="product-box cap">
@@ -104,10 +104,11 @@ const IndexPage = () => (
             <h4>新作プレビュー for ビジネス</h4>
             <img src={Sadogawa} alt="sadogawa kiyoshi profile picture" className="shadows"/>
             <h4>ゲスト: WING LUXデザイナー 佐戸川 清</h4>
-            <h4>全2回<br />1回目　11:00 〜 11:40</h4>
+            <h4>全2回<br />1回目 11:00 〜 11:40</h4>
             <a className="brownbutton" href="http://eepurl.com/g6-tjD" alt="July 30 Registration">7/30 11:00 〜 11:40 に参加申込み</a>
-            <h4 className="topmargin">2回目　14：00〜14：40</h4>
+            <h4 className="topmargin">2回目 14:00〜14:40</h4>
             <a className="brownbutton" href="http://eepurl.com/g-MeIv" alt="July 30 Afternoon Registration">7/30 14：00〜14：40 に参加申込み</a>
+            <p className="topmargin left">※開始10分前よりご入室いただけます</p>
           </div>
         </div>
       </div>
