@@ -13,19 +13,17 @@ import Gridimg2 from "../images/tl-table.jpg"
 import Gridimg3 from "../images/wing.jpg"
 import Kyobashi from "../images/kyobashi-group.jpg"
 import Sadogawa from "../images/sadogawa.jpg"
+import Chtop from "../images/ch-top.jpg"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="motiongraphic">
-      <video playsinline="true" webkit-playsinline preload='auto' loop autoPlay muted>
-        <source src={Motion} type="video/mp4" />
-     Your browser does not support HTML5 video.
-     </video>
+      <img src={Chtop} alt="CondeHouse Style 2020 JULY" />
     </div>
     <section data="eventinfo" className="chs-intro cap">
       <h3>conde house style <br />2020 July</h3>
-      <p>「CONDE HOUSE STYLE 2020 JULY」を開催いたしました。</p>
+      <p>「CONDE HOUSE STYLE 2020 JULY」を開催中です。</p>
       <p>新作・新提案を、7月オンラインにて発表。</p>
       <p>オフィスや家での過ごし方が見直され、生活スタイルや働き方が多様化する現代、<br />カンディハウスはお客さまとともに、より豊かなくらしを考えて参ります。</p>
       <p>国内外含めた世界同時配信にてお届けいたします。ぜひご期待ください。</p>
