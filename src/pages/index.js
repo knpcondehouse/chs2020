@@ -87,7 +87,7 @@ const IndexPage = () => (
           </div>
           <div className="column-text" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>TLテーブル（20）</h4>
-            <p>ベンチと組み合わせたときに出入りがしやすく、脚元が広いT字脚の「TLテーブル（20）」を元に無垢天板タイプを新しく発表します。天板は幅を50mm単位で選べる充実のサイズ展開。無垢材の節や木目といった心地よい天然素材の質感をお楽しみいただけます。</p>
+            <p>ベンチと組み合わせたときに出入りがしやすく、脚元が広いT字脚の「TLテーブル」を元に無垢天板タイプを新しく発表します。天板は幅を50mm単位で選べる充実のサイズ展開。無垢材の節や木目といった心地よい天然素材の質感をお楽しみいただけます。</p>
           </div>
         </div>
       </div>
