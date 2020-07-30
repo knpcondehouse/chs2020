@@ -103,10 +103,9 @@ const IndexPage = () => (
             <img src={Sadogawa} alt="sadogawa kiyoshi profile picture" className="shadows"/>
             <h4>ゲスト: WING LUXデザイナー 佐戸川 清</h4>
             <h4>全2回<br />1回目 11:00 〜 11:40</h4>
-            <a className="brownbutton" alt="July 30 Registration">7/30 11:00 〜 11:40 に参加申込み</a>
+            <a className="brownbutton" alt="July 30 Registration">→　たくさんのご参加ありがとうございました。</a>
             <h4 className="topmargin">2回目 14:00〜14:40</h4>
-            <a className="brownbutton" alt="July 30 Afternoon Registration">7/30 14：00〜14：40 に参加申込み</a>
-            <p className="left">→　たくさんのご参加ありがとうございました。</p>
+            <a className="brownbutton" alt="July 30 Afternoon Registration">→　たくさんのご参加ありがとうございました。</a>
           </div>
         </div>
       </div>
