@@ -17,7 +17,7 @@ const IndexPage = () => (
           <h3 className="redunderbar">CONDE HOUSE STYLE <br />Question and Answer</h3>
           <p className="topmargin">7月30新作プレビュー for ビジネスにていただいたご質問の回答を以下に紹介します。</p>
           <p>デザイナーより、カタログでは語られていない開発エピソードもございますのでぜひ御覧ください。（一部抜粋した内容になります）</p>
-          <h4>7月30日開催 新作プレビュー for ビジネス CLテーブル・TLテーブル（20）について</h4>
+          <h4>7月30日開催 新作プレビュー for ビジネス<br />CLテーブル・TLテーブル（20）について</h4>
           <p className="question"><span className="qicon"></span>CLテーブルの重量感を伺いたいです。</p>
           <p><span className="aicon"></span>180×90　H71サイズ　35㎏程度です。</p>
           <p className="question"><span className="qicon"></span>北海道タモ材と北海道ナラ材の大きな違いは何でしょうか。</p>
@@ -27,9 +27,9 @@ const IndexPage = () => (
           <p className="question"><span className="qicon"></span>ウォルナット材は輸入ですか?</p>
           <p><span className="aicon"></span>ウォルナット材は主に北アメリカからの輸入品となります。</p>
           <p className="question"><span className="qicon"></span>イージーオーダーとは納期はどれくらい必要ですか？</p>
-          <p><span className="aicon"></span>CLテーブルとTLテーブルのご注文後の納期は155×85、165×85、180×90の3サイズについて約1か月後の出荷を目指します。その他のサイズは1か月半後の出荷が目安です。ただし、初回製作は3サイズの場合9月25日（金）、その他サイズは10月5日（月）出荷となりますことご了承ください。</p>
+          <p><span className="aicon"></span>CLテーブルとTLテーブルのご注文後の納期は155×85、165×85、180×90の3サイズについて約1か月後の出荷を目指します。その他のサイズは1か月半後の出荷が目安です。<br />ただし、初回製作は3サイズの場合9月25日（金）、その他サイズは10月5日（月）出荷となりますことご了承ください。</p>
 
-          <h4>7月30日開催 新作プレビュー for ビジネス WING LUX LD（背張り）チェアについて</h4>
+          <h4>7月30日開催 新作プレビュー for ビジネス<br />WING LUX LD（背張）チェアーについて</h4>
           <p className="question"><span className="qicon"></span>チェアーの背と座の色は変える事出来るか、出来る場合の金額はどうなるか。</p>
           <p><span className="aicon"></span>背と座の張分けは設定しておりません。</p>
           <p className="question"><span className="qicon"></span>佐戸川さんへ、WING LUXのデザインは、どのように発想されたのでしょうか？</p>
