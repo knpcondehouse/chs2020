@@ -66,6 +66,7 @@ const IndexPage = () => (
             <h4><span className="newsicon"></span>WING LUX</h4>
             <a href="https://www.tonerico-inc.com/"><h5>design Kiyoshi Sadogawa</h5></a>
             <p>カンディハウスを代表するチェアー「WING LUX (ウイング ラックス)」に背張りタイプが加わりました。ふくよかな形状の笠木で包まれるような背あたりが人気のアイテムに、さらに長時間心地よく座れるよう、背のクッション性を高めました。</p>
+            <a className="brownbutton" href="https://www.condehouse.co.jp/news/tokai-news/newitem202007_2/" alt="Conde House Asahikawa Virtual Shop" target="_blank">製品情報等 詳しくはこちら</a>
           </div>
         </div>
       </div>
@@ -77,6 +78,7 @@ const IndexPage = () => (
           <div className="column-text" data-sal="slide-left" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>CLテーブル</h4>
             <p>角の丸い天板と、先細りした丸脚のデザインが、どこか優しく軽快な新作ダイニングテーブルを発表。天板は長方形と正方形、全52サイズから選べるラインアップが特長で、複数台並べて使うことも想定し緻密にデザインした、機能的なアイテムです。北海道産のタモ材とナラ材を各7色ご用意しました。</p>
+            <a className="brownbutton" href="https://www.condehouse.co.jp/products/series/detail.php?series_id=124" alt="Conde House Asahikawa Virtual Shop" target="_blank">製品情報等 詳しくはこちら</a>
           </div>
         </div>
       </div>
@@ -88,6 +90,7 @@ const IndexPage = () => (
           <div className="column-text" data-sal="slide-right" data-sal-duration="500" data-sal-delay="800" data-sal-easing="ease">
             <h4><span className="newsicon"></span>TLテーブル（20）</h4>
             <p>ベンチと組み合わせたときに出入りがしやすく、脚元が広いT字脚の「TLテーブル」を元に無垢天板タイプを新しく発表します。天板は幅を50mm単位で選べる充実のサイズ展開。無垢材の節や木目といった心地よい天然素材の質感をお楽しみいただけます。</p>
+            <a className="brownbutton" href="https://www.condehouse.co.jp/products/series/detail.php?series_id=125" alt="Conde House Asahikawa Virtual Shop" target="_blank">製品情報等 詳しくはこちら</a>
           </div>
         </div>
       </div>
