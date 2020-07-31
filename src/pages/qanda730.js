@@ -20,8 +20,8 @@ const IndexPage = () => (
           <h4>7月30日開催 新作プレビュー for ビジネス CLテーブル・TLテーブル（20）について</h4>
           <p className="question"><span className="qicon"></span>CLテーブルの重量感を伺いたいです。</p>
           <p><span className="aicon"></span>180×90　H71サイズ　35㎏程度です。</p>
-          <p className="question"><span className="qicon"></span>どこで購入できますか？青山のショップだけでしょうか。</p>
-          <p><span className="aicon"></span>海外含めて7月4日より発売となります。展示は全国のショップに展開しています（京都を除く）。</p>
+          <p className="question"><span className="qicon"></span>北海道タモ材と北海道ナラ材の大きな違いは何でしょうか。</p>
+          <p><span className="aicon"></span>北海道ナラ材のほうが硬く重く、北海道タモ材はバットに使用されることでもわかるように反発力があります。杢目の特徴は北海道ナラ材には斑(ふ)があらわれます。北海道タモの杢目はより明瞭な風合いです。</p>
           <p className="question"><span className="qicon"></span>CLテーブルのジョイントシステムの金物を使わないとは、どういう構造ですか？</p>
           <p><span className="aicon"></span>市販のジョイントシステム金物の緩みを避けるため、代わりにシンプルなネジ込み式取付方法を採用。　本来は難しい、ネジ込みの四隅脚を実現するために、天板と脚のすり合わせにひと手間加えて滑らかな仕上がりを実現しました。</p>
           <p className="question"><span className="qicon"></span>ウォルナット材は輸入ですか?</p>
