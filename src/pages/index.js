@@ -34,7 +34,7 @@ const IndexPage = () => (
           <div>
             <img src={July30main} className="shadows"/>
             <h4>7/31 DEBUT</h4>
-            <p>新作プレビューイベントを開催</p>
+            <p>新作テーブル・チェアーを発売</p>
           </div>
         </a>
         <a href="#kotankyobashi">
