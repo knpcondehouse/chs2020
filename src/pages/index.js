@@ -109,6 +109,8 @@ const IndexPage = () => (
             <a className="brownbutton" alt="July 30 Registration">→　たくさんのご参加ありがとうございました。</a>
             <h4 className="topmargin">2回目 14:00〜14:40</h4>
             <a className="brownbutton" alt="July 30 Afternoon Registration">→　たくさんのご参加ありがとうございました。</a>
+            <br />
+            <a className="brownbutton" href="/qanda730">当日行われたQ&Aはこちら</a>
           </div>
         </div>
       </div>
